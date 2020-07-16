@@ -28,3 +28,6 @@ console.log(getTotalCasesByDay(userInput2,gotRows))
  if(userInput1 === 'new'){
      console.log(getNewCasesByDay(userInput2, gotRows))
  }
+if(userInput1 !== 'total'|| userInput1 !== 'new'){
+    console.log("please input the following keywords before continuing your search: [new] or [total] then secondly input a date")
+}
